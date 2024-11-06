@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body align="center" >
+    
+    <form>
+        <fieldset>
+            <legend>ENQUIRY</legend>
+            compay : <input type="text" name="name" readonly="" disabled="" placeholder=" Please fill bellow infirmation"/>
+    <br>
+    Name : <input type="text" name="name" value=""required="" autofocus="" placeholder=" plese  enter you name"/>
+    <br>
+    <br>
+    address : <textarea> </textarea>
+    <br>
+    <br>
+    Gender : 
+    <input type="radio" value="m" name="gender" checked=""/> Male
+    <input type="radio" value="f" name="gender"/> Female
+    <input type="radio" value="o" name="gender"/> Other
+    <br>
+    <br>
+    country : 
+    <select>
+    <option>India</option>
+    <option>Japan</option>
+    </select>
+    city :
+    <select>
+        <option>Please enter </option>
+        <optgroup label="up">
+            <option>meerut</option>
+            <option>mirza pur</option>
+        </optgroup>
+    </select>
+    <br>
+    Hobies:
+    <input type="checkbox" name="Hobies[]" checked=""/> dancinng
+    <input type="checkbox" name="Hobies[]"/> Painting
+    <br>
+    Image :
+    <input type="file" name="image"/>
+    <br>
+    <br>
+    age :
+    <input type="number" name="age" min="1" max="25"/>
+    <br>
+    faveret color:
+    <input type="color" name="selext" value="#ff0000"/>
+    <br>
+    email :
+    <input type="email" name="email"/>
+    <br>
+    <br>
+    Password :
+    <input type="password" name="password" maxlength="4"/>
+    <br>
+    <br>
+    secret :
+    <input type="hidden" name="secret"/>
+    <br>
+    <br>
+
+
+
+
+
+    <input type="submit" value="send"/>
+    <input type="reset" value="reset"/>
+</fieldset>
+    </form>
+</body>
+</html>
