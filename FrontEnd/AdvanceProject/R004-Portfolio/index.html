@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Shakir-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#">Mohd Shakir</a>
+            <i class="ri-moon-line"></i>
+        </nav>
+    </header>
+    <div class="menu-bar">
+        <a href="#home"><i class="ri-home-8-line icon"></i></a>
+        <a href="#about"><i class="ri-contacts-line icon" ></i></a>
+        <a href=""><i class="ri-book-2-line icon"></i></a>
+        <a href=""><i class="ri-briefcase-4-line icon"></i></a>
+        <a href=""><i class="ri-message-3-fill icon"></i></a>
+    </div>
+<!-- =========================MAIN================================== -->
+    <div class="main">
+        <!-- ===========================Home Section=================================== -->
+        <section class="home section" id="home" >
+            <div class="home-container container" >
+                <div class="home-data">
+                    <span class="home-greet">Hello,I'm</span>
+                    <h1 class="home-name">Mohd Shakir</h1>
+                    <h3 class="home-education"></h3>
+                    <div class="home-button">
+                        <a href="" class="button button-host" id="cv">Download CV</a>
+                        <a href="#about" class="button">About</a>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/img-1__1_-removebg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===========================About Section=================================== -->
+        <section class="about section" id="about">
+            <span class="section-subtittle">My Intro</span>
+            <h2 class="section-tittle">About Me</h2>
+            <div class="about-container">
+                <div class="about-img"></div>
+                <div class="about-content">
+                    <div class="about-info">
+                        <div class="about-box"></div>
+                        <div class="about-box"></div>
+                        <div class="about-box"></div>
+                    </div>
+                    <p class="about-description">Versatile Freelancer | MERN, MEAN, & PHP Laravel Specialist | Expert in Web Scraping & CRM Solutions | Top-Rated Seller on Fiverr & Freelancer plateforms.</p>
+                    <a href="" class="button about-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========================Skills Section=================================== -->
+        <section class="skills section"></section>
+
+        <!-- ===========================Services Section=================================== -->
+        <section class="services section"></section>
+
+        <!-- ===========================Work Section=================================== -->
+        <section class="work section"></section>
+
+
+    </div>
+    <script>
+        document.querySelector("#cv").addEventListener("click",()=>{
+            window.open("https://drive.google.com/file/d/1tckLN-1Zqz2Oe9nd7TAZ7oyMBSW5uPzC/view?usp=sharing");
+            console.log("downloaded")
+        })
+    </script>
+</body>
+</html>

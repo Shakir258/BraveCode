@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_box{
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.sidebar_menu{
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.118);
+    position: absolute;
+    left: -301px;
+    top: 0;
+    box-shadow: 1px 8px rgba(255, 255, 255, 0.2);
+    transition: all .3s linear;
+}
+.logo{
+    height: 50px;
+    padding: 20px 0px 0px 20px;
+    border : 2px solid rgba(255, 255, 255, 0.3) ;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.btn_two{
+    position: absolute;
+    display:block;
+    left: 85%;
+    font-size: 30px;
+    top: 18px;
+}
+.menu ul li{
+    list-style: none;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500; 
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+}
+.social_media ul{
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    left: 25%;
+    bottom: 20px;
+}
+.social_media ul a{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.1);
+    padding-left:8px ;
+}
+#check{
+    display: none;
+}
+.btn_one{
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    font-size: 30px;
+}
+.social_media ul a :hover{
+    transform: scale(1.2);
+    color:white;
+}
+#check:checked ~ .sidebar_menu{
+    left: 0px;
+}
+#check:checked ~ .btn_one {
+    display: none;
+    animation-delay: .4s;
+}
+.menu > ul > li:hover{
+    border : 1px solid rgba(255, 255, 255, 0.3) ;
+}
