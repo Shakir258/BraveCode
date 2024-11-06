@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 1200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: auto;
+            margin-top: 200px;
+            position: relative;
+        }
+        .box{
+            width: 150px;
+            height:200px ;
+            background-color: red;
+            /* margin-top: 49px; */
+            position: absolute;
+            animation: box 5s;
+            animation-iteration-count:3 ;
+            /* animation-timing-function: linear;    all same speed */ 
+            /* animation-timing-function: ease;  start & end is slow*/
+            /* animation-timing-function: ease-in;       starting is slow */
+            /* animation-timing-function: ease-out;     ending is slow  */
+            animation-timing-function: ease-in-out;  /* start & end is slow */
+
+        }
+        @keyframes box {
+            from{
+                left: 0px;
+            }
+            to{
+                left: 1048px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+
+        </div>
+
+    </div>
+</body>
+</html>

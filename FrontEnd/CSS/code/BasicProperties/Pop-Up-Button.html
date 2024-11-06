@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: auto;
+            width: 400px;
+            height: 400px;
+            border: 2px solid red;
+            position: relative;
+
+        }
+        .add{
+            font-size: 30px;
+            background-color:rgba(0,0,0,0.6);;
+            color: white;
+            width: 100%;
+            position: absolute;
+            left: 0px;
+            bottom: -45px;
+            opacity: 0;
+        }
+        .box:hover .add{
+            bottom: 0px;
+            opacity: 1;
+            transition: 0.6s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="IMG_20221020_171528.jpg" alt="" width="400px" height="400px" >
+        <input type="button" value="add to cart" name="" id="" width="400px" height="20px" class="add">
+    </div>
+</body>
+</html>
