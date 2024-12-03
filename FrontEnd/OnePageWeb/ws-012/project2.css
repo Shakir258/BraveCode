@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    padding: 150px 0px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+}
+#left h1{
+    font-size: 6vw;
+    font-weight: 100;
+    
+}
+#bottom{
+    height: 40%;
+    width: 100%;
+}
+#color{
+    width: fit-content;
+    padding: 10px 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#color h4{
+    font-size: 1vw;
+}
+#color1{
+    height: 1vw;
+    width: 1vw;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+#color2{
+    height: 1vw;
+    width: 1vw;
+    background-color: rgb(225, 170, 19);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#left h2{
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+    margin-bottom: .5vw;
+}
+#left p{
+    font-size: 1vw;
+    width: 80%;
+    color: #444   ;
+}
+
+#right{
+    height: 100%;
+    width: 38%;
+    padding-top: 8vw;
+    /* margin-bottom: 0px; */
+}
+
+#right-top{
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.3vw;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right-top h4{
+    font-size: 1vw;
+    color: #444;
+}
+#right-top h5{
+    font-size: 1.5vw;
+    color: #444;
+}
+
+#img{
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+
+img{
+    
+    width: 70%;
+    height: 35vw;
+    object-fit: cover;
+    
+}
+
+#name{
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+    top: 10%;
+    right: -10%;
+}
+#name h2{
+    font-size: 1.7vw;
+    font-weight: 200;
+}
+
+#rotat{
+    position: absolute;
+    top: 60%;
+    left: -15%;
+    transform: rotate(-90deg);
+    font-size: 2.3vw;
+    padding: 1px 1px;
+}
+
+@media (max-width:800px) {
+    #main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #left {
+        height: 70%;
+        width: 50%;
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #left h1 {
+        font-size: 9vw;
+        font-weight: 100;
+    }
+    
+    #color h4 {
+        font-size: 3vw;
+    }
+    #color1 {
+        height: 1vw;
+        width: 1vw;
+        background-color: burlywood;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    #color1 {
+        height: 3vw;
+        width: 3vw;
+        background-color: burlywood;
+    }
+    #color2 {
+        height: 3vw;
+        width: 3vw;
+        background-color: rgb(49, 30, 6);
+    }
+    #left h2 {
+        font-size: 5vw;
+    }
+    #left p {
+        font-size: 3vw;
+        width: 90vw;
+
+    }
+    #right {
+        height: 100%;
+        width: 99vw;
+        padding-top: 7vw;
+    }
+    #right-top {
+        height: 7vw;
+        width: 100vw;
+        padding: 0 10px;
+    }
+    #right-top h4 {
+        font-size: 5vw;
+    }
+    #right-top h5 {
+        font-size: 4vw;
+    }
+    #img {
+        position: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+    #name {
+        position: absolute;
+        width: 25vw;
+        height: 25vw;
+        top: 6%;
+        right: 10%;
+    }
+    #name h2 {
+        font-size: 4vw;
+        font-weight: 200;
+    }
+    #rotat {
+        display: none;
+        position: initial;
+        width: 100vh;
+        top: 0%;
+        left: 0%;
+        transform: rotate(90deg);
+        font-size: 5vw;
+        padding: 1px 1px;
+    }
+}
