@@ -22,6 +22,7 @@ public class j04_largest {
         int sl = Integer.MIN_VALUE;
 
         int result = larg(number, large, sl);
+        System.out.println( "largest number"+result);
 
     }
 }
