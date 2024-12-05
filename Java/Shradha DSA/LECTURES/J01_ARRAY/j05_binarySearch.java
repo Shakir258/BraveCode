@@ -9,7 +9,7 @@ public class j05_binarySearch {
     public static int BinarySearch(int array[], int key){
         int start = 0;
         int end = array.length-1;
-        // System.out.println("length of array"+ end);
+        System.out.println("length of array"+ end);
 
 
         while (start <= end) {
