@@ -27,7 +27,7 @@ public class j05_binarySearch {
             }
             else{
                 end = mid-1;
-                System.out.println("small" + end);
+                // System.out.println("small" + end);
             }
         }
         return -1;
