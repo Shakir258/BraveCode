@@ -37,7 +37,7 @@ public class j05_binarySearch {
         Scanner sc = new Scanner(System.in);
         int array [] = new int[5];
         for(int i=0;i<array.length;i++){
-            System.out.print("enter number in array : ");
+            // System.out.print("enter number in array : ");
             array[i] = sc.nextInt();
         }
 
