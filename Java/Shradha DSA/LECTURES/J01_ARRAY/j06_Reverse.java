@@ -8,7 +8,7 @@ public class j06_Reverse {
         int end = array.length-1;
         int temp;
 
-        // rever the array element using swap method
+        // revers the array element using swap method
         while (start<end) {
             temp = array[start];
             array[start++]=array[end];
