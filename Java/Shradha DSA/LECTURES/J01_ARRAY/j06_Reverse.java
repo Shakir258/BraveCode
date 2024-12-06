@@ -8,7 +8,7 @@ public class j06_Reverse {
         int end = array.length-1;
         int temp;
 
-        //rever the array element using swap method
+        // rever the array element using swap method
         while (start<end) {
             temp = array[start];
             array[start++]=array[end];
@@ -31,6 +31,6 @@ public class j06_Reverse {
         for(int i=0;i<array.length;i++){
             System.out.println(i+"new arr ele = "+array[i]);
         }
-        sc.close();
+        // sc.close();
     }
 }
