@@ -31,6 +31,6 @@ public class j06_Reverse {
         for(int i=0;i<array.length;i++){
             System.out.println(i+"new arr ele = "+array[i]);
         }
-        sc.close();
+        // sc.close();
     }
 }
