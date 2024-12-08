@@ -31,7 +31,7 @@ public class j08_Sub_array {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int array[] = new int[5];                   //define array 
+        int array[] = new int[5];                  
 
         for(int i=0;i<array.length;i++){                    // input array elements
             System.out.print(i+"enter the value");
