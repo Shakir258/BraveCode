@@ -1,4 +1,4 @@
-// rain water trapping system calculate
+// rain water trapping system calculate at the bulding
 package LECTURES.J01_ARRAY;
 
 public class j09_Trapping_water {
