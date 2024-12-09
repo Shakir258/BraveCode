@@ -40,6 +40,7 @@ public class j09_Trapping_water {
         int BH[] = {4,2,0,6,3,5,0,6};
 
         int totalwater = trap(BH);
+        // Show the calculation
         System.out.println("totle water is : "+ totalwater);
     }
     
