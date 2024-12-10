@@ -17,7 +17,7 @@ public class j01_BubbleSort {
                     swap = swap +1;
                 }
             }
-            if(swap == 0){
+            if(swap == 0){                    // save time to 
                 System.out.println("array is sorted" + swap);
                 break;
             }
