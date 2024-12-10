@@ -1,3 +1,4 @@
+// BubbleSort 
 package LECTURES.J02_SORTING;
 
 import java.util.Scanner;
@@ -9,7 +10,7 @@ public class j01_BubbleSort {
         int swap=0;
         for(int tern=0;tern<num.length-1;tern++){
             for(int j=0;j<num.length-1-tern;j++){
-                if(num[j]>num[j+1]){
+                if(num[j]>num[j+1]){            //swap condition
                     temp = num[j];
                     num[j] = num[j+1];
                     num[j+1] = temp;
