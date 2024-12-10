@@ -31,6 +31,7 @@ public class j01_BubbleSort {
             number[i] = sc.nextInt();
         }
         BubbleSort(number);
+        // print sorted array 
         for(int i=0 ; i<number.length;i++){
             System.out.print(number[i]+" ");
         }
