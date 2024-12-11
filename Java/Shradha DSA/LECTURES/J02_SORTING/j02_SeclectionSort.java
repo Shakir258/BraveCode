@@ -18,7 +18,7 @@ public class j02_SeclectionSort {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {5,60,30,8,11,8,9,233,96,78,4,23,42};        //Array declair
+        int arr[] = {5,60,30,8,11,8,9,233,96,78,4,23,42};        //Array declear
 
         seclectionSort(arr);
         for(int i=0;i<arr.length;i++){
