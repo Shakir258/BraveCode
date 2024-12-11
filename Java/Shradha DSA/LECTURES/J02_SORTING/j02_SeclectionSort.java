@@ -2,7 +2,7 @@
 package LECTURES.J02_SORTING;
 
 public class j02_SeclectionSort {
-
+        // sorting function 
     public static void seclectionSort(int arr[]){
         int temp;
         for(int i=0;i<arr.length-1;i++){
