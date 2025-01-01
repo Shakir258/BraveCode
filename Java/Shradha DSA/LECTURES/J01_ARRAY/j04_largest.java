@@ -17,7 +17,7 @@ public class j04_largest {
     }
     
     public static void main(String[] args) {
-        int number[] = {1,2,6,30,5};
+        int number[] = {1,2,6,30,5,8};
         int large = Integer.MIN_VALUE;
         int sl = Integer.MIN_VALUE;
 
