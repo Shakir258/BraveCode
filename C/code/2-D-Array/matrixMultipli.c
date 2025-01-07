@@ -3,7 +3,7 @@ void main()
 {   int i,k,j,s;
     int a[3][3] ,b[3][3],ab[3][3];
     printf("first mmatrax \n");
-    for(i = 0; i < 3; i++){
+    for(i = 0; i< 3; i++){
         for(int j = 0; j < 3; j++){
             scanf("%d", &a[i][j]);
         }
