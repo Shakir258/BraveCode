@@ -4,6 +4,7 @@ void main(){
     printf("enter the number of x = ");
     printf("enter the number of x = ");
     printf("enter the number of x = ");
+    printf("enter the number of x = ");
 
     scanf("%d", &x);
 
