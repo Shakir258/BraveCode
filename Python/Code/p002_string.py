@@ -22,7 +22,7 @@ print(name[-4:-2]) #n-1
 
 nm = "Harry"
 print(nm[-4:-2])
- 
+
 # length of string
 name = "shakir"
 print(len(name))
