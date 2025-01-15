@@ -1,1 +1,1 @@
-print("first program s")
+print("first program shakir")
