@@ -1,8 +1,7 @@
 name = "shakir"
 name2 = """shakir  
 vjjlfdjgjd
-jgfjsgljsd
-gfjkdfjgjd
+
 """
 print("My name is ", name)
 print("My name is ", name2)
