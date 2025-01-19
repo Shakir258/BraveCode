@@ -1,6 +1,8 @@
 name = "shakir"
 name2 = """shakir  
-vjjlfdjgjd
+vjjlfdjgjdhfxft
+yyyyivvggu
+yyyuu
 
 """
 print("My name is ", name)
