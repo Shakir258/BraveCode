@@ -2,7 +2,7 @@ name = "shakir"
 name2 = """shakir  
 vjjlfdjgjdhfxft
 yyyyivvggu
-yyyuu
+yyy
 
 """
 print("My name is ", name)
