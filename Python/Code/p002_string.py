@@ -1,5 +1,5 @@
 name = "shakir"
-name2 = """shakir  
+name2 = """shakir   
 vjjlfdjgjdhfxft
 yyyyivvggu
 yyy
