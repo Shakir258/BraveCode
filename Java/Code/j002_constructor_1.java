@@ -4,7 +4,7 @@
 // Print the values of the variables.
 
 
-package Java_code.Web_exercise;
+package Java.Code;
 
 class Cat{
     String name ;

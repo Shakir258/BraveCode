@@ -1,4 +1,4 @@
-package Java_code.ApnaCollege.DayCode;
+package Java.Code;
 
 public class D0003_BasiceJava {
     

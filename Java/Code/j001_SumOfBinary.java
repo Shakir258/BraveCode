@@ -1,4 +1,4 @@
-package Java_code.Web_exercise;
+package Java.Code;
 
 import java.util.Scanner;
 
