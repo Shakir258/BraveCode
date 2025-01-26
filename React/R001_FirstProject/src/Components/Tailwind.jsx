@@ -1,5 +1,9 @@
 import react from "react";
+<<<<<<< HEAD
 import pr from '../assets/pf.png';
+=======
+// import pr from "../Components/assets/pf.png";
+>>>>>>> 318693b8e12dee35dc7a650f448342bccffca5ad
 
 
 function Tailwind() {
@@ -20,7 +24,11 @@ function Tailwind() {
 
                 <div className="hero w-full flex flex-col justify-between items-center">
                     <div className="hero-1 w-24 h-24 bg-blue-400 rounded-full mt-20">
+<<<<<<< HEAD
                         <img src={pr} alt="image" />
+=======
+                        <img src="{require('../assets/pf.png')}" alt="imgaes" />
+>>>>>>> 318693b8e12dee35dc7a650f448342bccffca5ad
                     </div>
                     <h3 className="text-xl font-semibold mt-10">I'm Shakir siddiqui</h3>
                     <h1 className=" w-3/4  tracking-tight text-4xl leading-none font-semibold text-center mt-3">Build Digital Product, brand, and exprimce</h1>
