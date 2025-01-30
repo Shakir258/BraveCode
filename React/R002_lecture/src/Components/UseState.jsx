@@ -23,7 +23,7 @@ function UseState(){
             {num.map(item=><h1 className='py-2 px-4 '>{item}</h1>)}
             <button onClick={()=>setnum(()=>num.filter((item, index)=>{
                 return index != num.length-1;
-            }))} className ='py-2 px-4 bg-red-700 text-white rounded-full'>POP</button>
+            }))} className ='py-1 px-4 bg-red-700 text-white rounded-full'>POP</button>
         </div>
     )
 }
