@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import Nav from './Nav';
-import Details from './Details';
 import { Link } from 'react-router-dom';
 import {ProductContext} from '../utils/Context';
 import Loding from './Loding';
