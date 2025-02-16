@@ -12,8 +12,8 @@ class Cat{
     Cat(){
         name = "Unknown";
         age = 0;
-//        System.out.println(name);
-//        System.out.println(age);
+        System.out.println(name);
+        System.out.println(age);
 
     }
 }
