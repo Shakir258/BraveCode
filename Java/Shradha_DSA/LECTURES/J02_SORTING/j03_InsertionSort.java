@@ -1,6 +1,4 @@
 package LECTURES.J02_SORTING;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class j03_InsertionSort {
 
